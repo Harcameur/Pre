@@ -1,0 +1,23 @@
+<h2>Offre de stage</h2>
+
+
+<!-- list des offres de stage -->
+<div *ngFor= "let stage_offer of list_stage_offer">
+
+    <h3>
+        {{ stage_offer.titre }}
+    </h3>
+    <a
+    [title]="stage_offer.company.name + ' details'"
+    [routerLink]="['/company', stage_offer.company.id]">
+        {{ stage_offer.company.name }}
+    </a>
+    <p>
+        {{ stage_offer.description }}
+    </p>
+    <a
+    [title]="stage_offer.titre + ' ' + stage_offer.company.name + ' details'"
+    [routerLink]="['/stage_offer', stage_offer.id]">
+        en savoir plus
+    </a>
+</div>
