@@ -1,0 +1,21 @@
+div{
+    background-color: rgb(231, 231, 231);
+    padding-left: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+div:hover{
+    background-color: rgb(245, 245, 245);
+}
+p{
+    padding-top:5px;
+    padding-bottom:5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 15px;
+}
+img{
+    height: 40px;
+    width: 30px;
+}

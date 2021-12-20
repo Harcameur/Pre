@@ -7,7 +7,13 @@
     <h3>
         {{ stage_offer.titre }}
     </h3>
+    <p class="tag">
+        <span *ngFor="let type_stage of stage_offer.type_stages">
+          {{ type_stage.name }}
+        </span> 
+      </p>
     <a
+    id="company"
     [title]="stage_offer.company.name + ' details'"
     [routerLink]="['/company', stage_offer.company.id]">
         {{ stage_offer.company.name }}

@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { CompanyComponent } from './company/company.component';
 import { ListStageOfferComponent } from './list-stage-offer/list-stage-offer.component';
 import { StageOfferDetailComponent } from './stage-offer-detail/stage-offer-detail.component';
+import { HomeComponent } from './home/home.component';
+import { FileDownloadComponent } from './file-download/file-download.component';
+import { HeaderBarComponent } from './header-bar/header-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CompanyComponent,
     ListStageOfferComponent,
-    StageOfferDetailComponent
+    StageOfferDetailComponent,
+    HomeComponent,
+    FileDownloadComponent,
+    HeaderBarComponent
   ],
   imports: [
     BrowserModule,
