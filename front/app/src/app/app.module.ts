@@ -9,6 +9,7 @@ import { StageOfferDetailComponent } from './stage-offer-detail/stage-offer-deta
 import { HomeComponent } from './home/home.component';
 import { FileDownloadComponent } from './file-download/file-download.component';
 import { HeaderBarComponent } from './header-bar/header-bar.component';
+import { AuthComponent } from './auth/auth.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HeaderBarComponent } from './header-bar/header-bar.component';
     StageOfferDetailComponent,
     HomeComponent,
     FileDownloadComponent,
-    HeaderBarComponent
+    HeaderBarComponent,
+    AuthComponent
   ],
   imports: [
     BrowserModule,

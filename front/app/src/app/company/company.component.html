@@ -1,6 +1,13 @@
 <div *ngIf="company">
-    <h3>{{ company.name }}</h3>
-    <p> {{ company.address }} </p>
-    <p> {{ company.description }} </p>
+    <div id="desc">
+            
+        <h3>{{ company.name }}</h3>
+        <p> {{ company.address }} </p>
+        <p> {{ company.description }} </p>
+    </div>
+    <app-list-stage-offer 
+        [company_search]="company">
+    </app-list-stage-offer>
 </div>
+
 

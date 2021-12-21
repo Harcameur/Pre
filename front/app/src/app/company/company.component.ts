@@ -21,6 +21,7 @@ export class CompanyComponent implements OnInit {
   
     // Find the product that correspond with the id provided in route.
     this.company = company_list.find(company_list => company_list.id === productIdFromRoute);
+    console.log(this.company)
   }
 
 }

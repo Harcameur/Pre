@@ -2,6 +2,7 @@ div{
     background-color: white;
     padding: 10px;
     margin-bottom: 10px;
+    transition: all 0.5s;
 }
 a {
     color: rgb(56, 152, 216);
@@ -31,4 +32,10 @@ span{
     column-gap: 5px;
     flex-wrap: wrap;
     width:90%;
+}
+input[type=text]{
+    width: 98%;
+    height: 25px;
+    font-size: 18px;
+    margin-bottom: 14px;
 }

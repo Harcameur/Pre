@@ -1,6 +1,6 @@
 <h2>Offre de stage</h2>
 
-
+<input type="text" (keyup)="search_stage_offer($event)" placeholder="Titre du stage"/><br/>
 <!-- list des offres de stage -->
 <div *ngFor= "let stage_offer of list_stage_offer">
 

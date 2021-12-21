@@ -3,8 +3,16 @@
     href="/">
         Accueil
     </a>
-    <a
-    [routerLink]="">
+    <ng-template [ngIf]="auth_state">
+        <a
+    [routerLink]="" >
+        {{connexion.name}}
+    </a>
+    </ng-template>
+    <ng-template [ngIf]="!auth_state">
+        <a
+    [routerLink]="" >
         Connexion
     </a>
+    </ng-template>
 </div>
