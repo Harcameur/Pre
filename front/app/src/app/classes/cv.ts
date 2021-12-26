@@ -1,11 +1,17 @@
+export interface ICv{
+    id: number;
+    filename: string;
+    name: string;
+}
+
 export class Cv{
     readonly id: number;
     filename: string;
     name: string;
 
-    constructor(id:number, filename:string, name: string){
-        this.id = id;
-        this.filename = filename;
-        this.name = name;
+    constructor(data: ICv){
+        this.id = data.id;
+        this.filename = data.filename;
+        this.name = data.name;
     }
 }

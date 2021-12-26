@@ -1,6 +1,12 @@
 /**
  * Define Company classes
  */
+ export interface ICompany {
+    id : number;
+    name : string;
+    description: string;
+    address : string;
+}
 
 export class Company {
     readonly id : number;
@@ -8,10 +14,10 @@ export class Company {
     description: string;
     address : string;
 
-    constructor(id: number, name: string, description: string, address: string){
-        this.id = id;
-        this.name = name;
-        this.description = description;
-        this.address = address;
+    constructor(data: ICompany){
+        this.id = data.id;
+        this.name = data.name;
+        this.description = data.description;
+        this.address = data.address;
     }
 }

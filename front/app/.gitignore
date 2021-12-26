@@ -10,6 +10,9 @@
 # dependencies
 /node_modules
 
+# scan
+/.scannerwork
+
 # profiling files
 chrome-profiler-events*.json
 

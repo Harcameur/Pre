@@ -1,4 +1,9 @@
 
+export interface IDocument{
+    id: number,
+    filename: string,
+    name: string
+}
 
 
 export class Document{
@@ -6,9 +11,9 @@ export class Document{
     filename: string;
     name: string;
 
-    constructor(id:number, filename:string, name:string){
-        this.id = id;
-        this.filename = filename;
-        this.name = name;
+    constructor(data:IDocument){
+        this.id = data.id;
+        this.filename = data.filename;
+        this.name = data.name;
     }
 }

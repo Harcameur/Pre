@@ -11,5 +11,4 @@ export class AuthService {
     // return utilisateur;
     return null
   }
-  constructor() { }
 }

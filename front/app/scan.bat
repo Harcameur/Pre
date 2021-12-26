@@ -1,0 +1,1 @@
+C:\Users\trawn\Documents\scanner\sonar-scanner-cli-4.6.2.2472-windows\sonar-scanner-4.6.2.2472-windows\bin\sonar-scanner.bat -D"sonar.projectKey=PRE" -D"sonar.sources=." -D"sonar.host.url=http://localhost:9000" -D"sonar.login=abd03e55405af776f96c60f5ab447579d86bca52"

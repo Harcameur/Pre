@@ -26,7 +26,8 @@ import { AuthComponent } from './auth/auth.component';
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot([
-      { path: '', component: ListStageOfferComponent },
+      { path: '', component: HomeComponent },
+      { path: 'stage_offer', component: ListStageOfferComponent },
       { path: 'stage_offer/:stage_offerID', component: StageOfferDetailComponent },
       { path: 'company/:companyID', component: CompanyComponent },
     ])

@@ -17,8 +17,8 @@ export const type_stages= [
     new TypeStage(4, "Stage fin d'année"),
 ]
 export const documents = [
-    new Document(1,"021278_edf.pdf","presentation.pdf"),
-    new Document(1,"021278_edf.pdf","attendu.pdf")
+    new Document({id:1,filename:"021278_edf.pdf",name:"presentation.pdf"}),
+    new Document({id:1,filename:"021278_edf.pdf",name:"presentation.pdf"})
 ]
 export const stage_offer = [
     new StageOffer(
