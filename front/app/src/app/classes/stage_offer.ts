@@ -49,8 +49,10 @@ export class StageOffer{
     }
 
     test_pj_offer_stage(obj: Array<Document> | Array<IDocument>): Array<Document>{
+        console.log(obj);
         let retour:Array<Document> = [];
-        obj.forEach(element => function(){
+        obj.forEach(function(element) {
+            console.log(element);
             if(element instanceof Document){
                 retour.push(element)
             }else{
@@ -62,7 +64,7 @@ export class StageOffer{
 
     test_type_stage(obj: Array<TypeStage> | Array<ITypeStage>): Array<TypeStage>{
         let retour:Array<TypeStage> = [];
-        obj.forEach(element => function(){
+        obj.forEach(function(element){
             if(element instanceof TypeStage){
                 retour.push(element)
             }else{

@@ -18,7 +18,7 @@
   <p>{{ stage_offer.description }}</p>
   <app-file-download
     *ngFor="let document of stage_offer.pj_offer_stages"
-    [document]=document
+    [document]="document"
   >
   </app-file-download>
 </div>
